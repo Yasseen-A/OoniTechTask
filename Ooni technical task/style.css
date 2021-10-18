@@ -1,0 +1,95 @@
+#wrapper {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 4%;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@font-face {
+  font-family: DejaVu Serif Web;
+  src: url(/fonts/DejaVu/ttf/DejaVuSerif.ttf) format("truetype");
+}
+
+body{
+  background-image: url(background.png);
+  font-family: 'Roboto', sans-serif;
+}
+
+#current_weather{
+  background-color: #b2dcde;
+  padding: 10px 10px 10px 10px;
+  margin: 5% 0 0 2%;
+  width: 55%;
+  float: left;
+  border-radius: 30px;
+}
+
+#day1, #day2, #day3, #day4, #day5, #day6, #day7  {
+  background-color: #b2dcde;
+  padding: 10px 10px 10px 10px;
+  width: 35%;
+  margin: 10px 0px 0px 62%;
+  border-radius: 30px;
+}
+
+.headings{
+  float:left;
+}
+
+.day{
+  font-size: 40pt;
+  margin: 10px 0 0 40px;
+}
+
+.date{
+  font-size: 24pt;
+  margin: 30px 0 0 40px;
+}
+
+.temp{
+  font-size: 60pt;
+  margin: 0 ;
+}
+
+.desc{
+  font-size: 20pt;
+  margin: 0 ;
+}
+
+.feels{
+  margin: 10px 0 0 50%;
+}
+
+.humidity{
+  margin: 10px 0 0 50%;
+}
+
+.wind{
+  margin: 10px 0 0 50%;
+}
+
+#weekday1, #weekday2, #weekday3, #weekday4, #weekday5, #weekday6, {
+  font-size: 25pt;
+  margin-top: 40%;
+  margin-left: 20px;
+}
+
+.week_temp {
+  font-size: 30pt;
+  margin: 10px 20px 0 0;
+  text-align: right;
+}
+
+.week_desc {
+  font-size: 15pt;
+  margin: 10px 0 5px 0;
+  text-align: right;
+}
+
+#myChart{
+  margin: 30px 0 30px 0;
+  height: 200px;
+  width: 80%;
+}
